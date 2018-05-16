@@ -1,0 +1,69 @@
+/*==================================
+General CSS
+==================================*/
+
+#movies img, #movie img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.img-container {
+  min-height: 400px;
+}
+
+@media(min-width:768px){
+  .movie-listing {
+    margin-bottom: 3%;
+  }
+  .movie-listing h5 {
+    min-height: 66px;
+  }
+}
+
+@media(min-width:1200px){
+  .movie-listing h5 {
+    min-height: 45px;
+  }
+}
+
+@media (max-width:1199px) {
+  .img-container {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-container {
+    min-height: 233px;
+  }
+}
+
+@media(max-width:767px){
+  .movie-listing {
+    margin-bottom: 24px;
+  }
+  #movies img {
+    max-height: 446px;
+  }
+}
+
+#searchForm input {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.movie-listing h5 {
+  margin: 12px 0;
+}
+
+.movie-listing a {
+  margin: 10px 0;
+}
+
+.pad-40 {
+  padding: 40px 0;
+}
+
+.pad-lr-20 {
+  padding: 0 20px;
+}
